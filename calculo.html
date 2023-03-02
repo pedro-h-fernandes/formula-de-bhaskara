@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculo.css">
+    <title>Calculo de Bhaskara</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bhaskara</h1>
+
+        <nav>
+            <ul class="ul-header">
+                <li><a class="links" href="/index.html">Sobre</a></li>
+                <li><a class="links" href="/calculo.html">Calcular</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Calcular equação</h1>
+
+        <section class="container">
+            <form class="formulario" action="">
+                <label for="A">Valor do A</label>
+                <input type="number" name="inputA" id="inputA">
+
+                <label for="B">Valor do B</label>
+                <input type="number" name="inputB" id="inputB">
+
+                <label for="C">Valor do C</label>
+                <input type="number" name="inputC" id="inputC">
+
+                <button class="btn">Calcular</button>
+            </form>
+
+            <div class="resultado on">
+                <div class="paragrafos">
+                    <h1>Resultado:</h1>
+                    <p>X1: <span class="x1"></span></p>
+                    <p>X1: <span class="x2"></span></p>
+                </div>
+
+                <div class="regras"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

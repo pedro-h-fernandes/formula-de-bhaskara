@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,600&display=swap');
+
+@font-face {
+    font-family: 'Balbek';
+    src: url('fonts/Balbek-Personal-Use-Only.otf');
+}
+
+@font-face {
+    font-family: 'HandrawnColorKid';
+    src: url('fonts/HandrawnColorKid.otf');
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 65.2%;
+    font-family: 'Titillium Web', sans-serif;
+    background-image: url('img/quadro-negro-bg.jpg');
+}
+
+
+header {
+    background-color: #13392ed0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+header h1 {
+    font-family: 'HandrawnColorKid';
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.ul-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.ul-header li {
+    font-size: 2rem;
+    margin: 0 4px;
+    list-style: none;
+    padding: 5px;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.links:hover {
+    background-color: #398570e1;
+    transition-duration: 0.3s;
+}
+
+
+main {
+    background-color: white;
+    width: fit-content;
+    padding: 1%;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 1%;
+
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.322);
+}
+
+main h1 {
+    font-size: 2rem;
+    color: #381B13;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resultado {
+    visibility: hidden;
+    width: 50%;
+    padding: 5px;
+}
+
+.resultado .paragrafos {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.formulario {
+    /* background-color: #381B13; */
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    width: 50%;
+    padding: 5px;
+}
+
+.formulario input {
+    padding: 3px;
+    border-radius: 3px;
+    background-color: transparent;
+    font: 600 1.5rem 'Courier New',
+    Courier,
+        monospace;
+
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
+    }
+    
+.formulario label {
+    color: #852B11;
+
+}
+
+.btn {
+    margin-top: 5px;
+    padding: 3px;
+    background-color: #39856F;
+
+    color: white;
+    font-family: 'Courier New',
+    Courier,
+    monospace;
+    font-size: 1.4rem;
+
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
+    border-radius: 3px;
+}
