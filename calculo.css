@@ -94,11 +94,28 @@ main h1 {
     padding: 5px;
 }
 
+.x1,
+.x2 {
+    color: #852B11;
+}
+
 .resultado .paragrafos {
     display: flex;
+    padding: 5px;
     justify-content: space-evenly;
     font-size: 1.8rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.paragrafos p {
+    color: #0e4d3b;
+}
+
+.regras p {
+    margin-top: -5px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #381B13;
 }
 
 .formulario {
@@ -115,12 +132,12 @@ main h1 {
     border-radius: 3px;
     background-color: transparent;
     font: 600 1.5rem 'Courier New',
-    Courier,
+        Courier,
         monospace;
 
-        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
-    }
-    
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
+}
+
 .formulario label {
     color: #852B11;
 
@@ -133,8 +150,8 @@ main h1 {
 
     color: white;
     font-family: 'Courier New',
-    Courier,
-    monospace;
+        Courier,
+        monospace;
     font-size: 1.4rem;
 
     margin-bottom: 5px;
